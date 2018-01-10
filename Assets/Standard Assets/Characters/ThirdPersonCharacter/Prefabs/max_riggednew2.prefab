@@ -391,6 +391,7 @@ GameObject:
   - component: {fileID: 114128765274836698}
   - component: {fileID: 114016202454768854}
   - component: {fileID: 195186626852653534}
+  - component: {fileID: 114769016557681918}
   m_Layer: 0
   m_Name: max_riggednew2
   m_TagString: Untagged
@@ -2812,6 +2813,17 @@ MonoBehaviour:
   m_MoveSpeedMultiplier: 1
   m_AnimSpeedMultiplier: 1
   m_GroundCheckDistance: 0.2
+--- !u!114 &114769016557681918
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1196306136916378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66bfd8455691d154496fd58bd1ad74fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &136767447658775934
 CapsuleCollider:
   m_ObjectHideFlags: 1
