@@ -191,16 +191,32 @@ ModelImporter:
     400180: Plane.007
     400182: Plane.008
     400184: Plane.009
+<<<<<<< HEAD
+=======
+    2300000: Plane
+    2300002: Plane.009
+    3300000: Plane
+    3300002: Plane.009
+>>>>>>> master
     4300000: Plane.003
     4300002: Plane.002
     4300004: Plane.001
     4300006: Plane
+<<<<<<< HEAD
     4300008: Plane.005
     4300010: Plane.004
     4300012: Plane.009
     4300014: Plane.008
     4300016: Plane.007
     4300018: Plane.006
+=======
+    4300008: Plane.009
+    4300010: Plane.008
+    4300012: Plane.007
+    4300014: Plane.006
+    4300016: Plane.005
+    4300018: Plane.004
+>>>>>>> master
     4300020: Plane.000
     9500000: //RootNode
     13700000: Plane
