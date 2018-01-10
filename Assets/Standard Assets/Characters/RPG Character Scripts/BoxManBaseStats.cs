@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Assets.Standard_Assets.Characters.ThirdPersonCharacter.Scripts
 {
-    static class PracticeBoxBaseStats
+    static class BoxManBaseStats
     {
         public static List<float> GetBaseStats()
         {

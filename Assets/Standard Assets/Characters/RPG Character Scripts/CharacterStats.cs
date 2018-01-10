@@ -46,9 +46,9 @@ public class CharacterStats : MonoBehaviour
         {
             m_BaseStatsList = MaxBaseStats.GetBaseStats();
         }
-        else if(m_CharacterName == "PracticeBox")
+        else if(m_CharacterName == "boxMan")
         {
-            m_BaseStatsList = PracticeBoxBaseStats.GetBaseStats();
+            m_BaseStatsList = BoxManBaseStats.GetBaseStats();
         }
         else
         {
