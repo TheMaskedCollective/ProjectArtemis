@@ -10,7 +10,13 @@ Project management at monday.com
 
 Each user should use their own branch. Branches will be merged by manager on schedule.
 
-Branch merging to master will be performed weekly.
+Development branch is the current combined build for development.
+
+Individual branches should be based on the Development branch.
+
+Master is the release branch.
+
+Branch merging to development will be performed weekly.
 
 Current Tasks:
 Requirements Development
