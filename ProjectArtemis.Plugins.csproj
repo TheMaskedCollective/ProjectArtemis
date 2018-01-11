@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>GamePlugins:3</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.3.0f3</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -311,10 +309,10 @@
     <Compile Include="Assets\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
     <Compile Include="Assets\Standard Assets\Characters\RollerBall\Scripts\BallUserControl.cs" />
     <Compile Include="Assets\Standard Assets\Characters\RPG Character Scripts\BasicAttack.cs" />
+    <Compile Include="Assets\Standard Assets\Characters\RPG Character Scripts\BoxManBaseStats.cs" />
     <Compile Include="Assets\Standard Assets\Characters\RPG Character Scripts\CharacterHealth.cs" />
     <Compile Include="Assets\Standard Assets\Characters\RPG Character Scripts\CharacterStats.cs" />
     <Compile Include="Assets\Standard Assets\Characters\RPG Character Scripts\MaxBaseStats.cs" />
-    <Compile Include="Assets\Standard Assets\Characters\RPG Character Scripts\BoxManBaseStats.cs" />
     <Compile Include="Assets\Standard Assets\Characters\RPG Character Scripts\StatModifier.cs" />
     <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" />
     <Compile Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\ThirdPersonCharacter.cs" />
