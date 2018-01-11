@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectArtemis.Plugins", "ProjectArtemis.Plugins.csproj", "{D24E28B6-9108-A794-AA60-0F823FB8BAF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectArtemis", "ProjectArtemis.csproj", "{8BA2CD98-074C-35ED-D9C0-BF1D06F2A35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectArtemis.Editor.Plugins", "ProjectArtemis.Editor.Plugins.csproj", "{D027B147-6002-133A-49F7-C93586B5433A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D24E28B6-9108-A794-AA60-0F823FB8BAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24E28B6-9108-A794-AA60-0F823FB8BAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24E28B6-9108-A794-AA60-0F823FB8BAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24E28B6-9108-A794-AA60-0F823FB8BAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA2CD98-074C-35ED-D9C0-BF1D06F2A35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA2CD98-074C-35ED-D9C0-BF1D06F2A35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA2CD98-074C-35ED-D9C0-BF1D06F2A35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA2CD98-074C-35ED-D9C0-BF1D06F2A35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D027B147-6002-133A-49F7-C93586B5433A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D027B147-6002-133A-49F7-C93586B5433A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D027B147-6002-133A-49F7-C93586B5433A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D027B147-6002-133A-49F7-C93586B5433A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
