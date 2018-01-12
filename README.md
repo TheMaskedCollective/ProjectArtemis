@@ -10,16 +10,21 @@ Project management at monday.com
 
 Each user should use their own branch. Branches will be merged by manager on schedule.
 
-Branch merging to master will be performed weekly.
+Development branch is the current combined build for development.
 
-Current Tasks:
-Requirements Development
-- We need to define the rest of the requirements and milestones
+Individual branches should be based on the Development branch.
 
+Master is the release branch.
+
+Branch merging to development will be performed weekly.
+
+Current Tasks: Requirements Development
+
+We need to define the rest of the requirements and milestones
 Combat Mechanics
-- In development; testing interface and display and functional options
-- Artificial Intelligence for non-player characters
 
+In development; testing interface and display and functional options
+Artificial Intelligence for non-player characters
 Artwork
-- Likely always in production; need characters and general game objects
 
+Likely always in production; need characters and general game objects
