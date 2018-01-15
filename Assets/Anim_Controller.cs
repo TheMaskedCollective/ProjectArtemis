@@ -18,7 +18,7 @@ public class Anim_Controller : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//if (Input.GetMouseButtonDown (0))
+		if (Input.GetMouseButtonDown (0))
 		//{
   //          SkinnedMeshRenderer renderer = GetComponentInChildren<SkinnedMeshRenderer>();
   //          foreach(var bone in renderer.bones)
