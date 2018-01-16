@@ -301,6 +301,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Anim_Controller.cs" />
+    <Compile Include="Assets\Target.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />

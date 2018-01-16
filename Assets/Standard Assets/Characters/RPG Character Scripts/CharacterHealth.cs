@@ -15,6 +15,7 @@ public class CharacterHealth : MonoBehaviour {
     bool m_Damaged;
     Slider m_HealthSlider;
     GameObject m_Attacker;
+    public bool m_ShowHealth = false;
 
 	// Use this for initialization
 	void Start () {
@@ -33,6 +34,14 @@ public class CharacterHealth : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (!m_ShowHealth && m_HealthSlider != null)
+        {
+            m_HealthSlider.transform.parent.gameObject.SetActive(false);
+        }
+        else if(m_HealthSlider != null)
+        {
+            m_HealthSlider.transform.parent.gameObject.SetActive(true);
+        }
         if (m_Damaged)
         {
             //show damage frames
