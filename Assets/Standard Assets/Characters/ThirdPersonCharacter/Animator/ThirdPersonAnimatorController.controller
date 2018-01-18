@@ -884,13 +884,11 @@ AnimatorStateMachine:
     m_State: {fileID: 110276412}
     m_Position: {x: 444, y: -48, z: 0}
   - serializedVersion: 1
-<<<<<<< HEAD
     m_State: {fileID: 1102605093325324944}
     m_Position: {x: 828, y: 48, z: 0}
-=======
+  - serializedVersion: 1
     m_State: {fileID: 1102567530716083176}
     m_Position: {x: 912, y: 204, z: 0}
->>>>>>> _R1_Kyle
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -936,9 +934,27 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
-<<<<<<< HEAD
 --- !u!1102 &1102605093325324944
-=======
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_Conditions: []
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 110298501}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.8125
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1101 &1101659424769914418
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -961,25 +977,16 @@ AnimatorStateTransition:
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
 --- !u!1102 &1102567530716083176
->>>>>>> _R1_Kyle
 AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-<<<<<<< HEAD
-  m_Name: Attacking
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions:
-  - {fileID: 1101227844980686092}
-=======
   m_Name: Attack1
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1101659424769914418}
->>>>>>> _R1_Kyle
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -989,11 +996,8 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-<<<<<<< HEAD
   m_Motion: {fileID: 206368451405112164}
-=======
   m_Motion: {fileID: 7400000, guid: dbbdcfdc751ca1146932bd6bc3dda730, type: 3}
->>>>>>> _R1_Kyle
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
