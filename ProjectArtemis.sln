@@ -3,11 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectArtemis.Plugins", "ProjectArtemis.Plugins.csproj", "{D24E28B6-9108-A794-AA60-0F823FB8BAF7}"
 EndProject
-<<<<<<< HEAD
-=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectArtemis", "ProjectArtemis.csproj", "{8BA2CD98-074C-35ED-D9C0-BF1D06F2A35D}"
 EndProject
->>>>>>> _R1_Kyle
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectArtemis.Editor.Plugins", "ProjectArtemis.Editor.Plugins.csproj", "{D027B147-6002-133A-49F7-C93586B5433A}"
 EndProject
 Global

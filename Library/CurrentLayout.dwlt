@@ -96,7 +96,7 @@ MonoBehaviour:
   m_MinSize: {x: 583, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 35
+  controlID: 10
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,59 +289,8 @@ MonoBehaviour:
     height: 552
   m_PersistentViewDataDictionary: {fileID: 0}
   m_ViewTransforms:
-    m_KeySerializationHelper:
-    - {fileID: 110700000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
-    - {fileID: 110200000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
-    - {fileID: 110298501, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
-    m_ValueSerializationHelper:
-    - e00: 0.97152215
-      e01: 0
-      e02: 0
-      e03: -19.974792
-      e10: 0
-      e11: 0.97152215
-      e12: 0
-      e13: 140.94582
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 1
-      e01: 0
-      e02: 0
-      e03: 188.125
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 146
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    - e00: 0.59390247
-      e01: 0
-      e02: 0
-      e03: 312.76523
-      e10: 0
-      e11: 0.59390247
-      e12: 0
-      e13: 12.030472
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
+    m_KeySerializationHelper: []
+    m_ValueSerializationHelper: []
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 0}
   m_BreadCrumbs: []
@@ -388,9 +337,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 271.62256, y: 4.044161, z: 263.66873}
+    m_Target: {x: 284.31482, y: 5.454424, z: 258.99173}
     speed: 2
-    m_Value: {x: 271.62256, y: 4.044161, z: 263.66873}
+    m_Value: {x: 284.31482, y: 5.454424, z: 258.99173}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -414,9 +363,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.07853611, y: 0.6042001, z: -0.060012147, w: -0.7906787}
+    m_Target: {x: 0.0024136086, y: -0.8439856, z: -0.0037957032, w: -0.5363469}
     speed: 2
-    m_Value: {x: -0.07853611, y: 0.6042001, z: -0.060012147, w: -0.7906787}
+    m_Value: {x: 0.0024136086, y: -0.8439856, z: -0.0037957032, w: -0.5363469}
   m_Size:
     m_Target: 6.8556895
     speed: 2
@@ -548,19 +497,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/ProjectArtemisScripts/RPG Character Scripts
+    - Assets/Combat_Test
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/ProjectArtemisScripts/RPG Character Scripts
+  - Assets/Combat_Test
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kcohen\Documents\GitHub\ProjectArtemis
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 52}
-    m_SelectedIDs: 9c2c0000
-    m_LastClickedID: 11420
-    m_ExpandedIDs: 00000000ee2700001e2800008c290000622a000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 36}
+    m_SelectedIDs: 1c3b0000
+    m_LastClickedID: 15132
+    m_ExpandedIDs: 0000000082390000a63900009e3a0000403b000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -588,7 +537,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ee2700001e2800008c290000622a0000
+    m_ExpandedIDs: 0000000082390000a63900009e3a0000403b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -615,7 +564,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000482b0000162b00004c2c0000fc350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -670,7 +619,7 @@ MonoBehaviour:
     width: 387
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 241.95508}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 379
@@ -706,9 +655,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ba2d0000
-    m_LastClickedID: 11706
-    m_ExpandedIDs: 9efbffff00000000
+    m_SelectedIDs: be3b0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: b6f7ffffd8f9ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
