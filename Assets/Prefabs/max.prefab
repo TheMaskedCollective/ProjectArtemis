@@ -653,6 +653,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IsDead: 0
+  m_ShowHealth: 0
+  m_IsCurrentTarget: 0
 --- !u!114 &114557757562649204
 MonoBehaviour:
   m_ObjectHideFlags: 1
