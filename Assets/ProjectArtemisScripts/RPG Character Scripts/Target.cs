@@ -111,7 +111,11 @@ public class Target : MonoBehaviour
             {
                 if (item.GetComponentInChildren<Renderer>().IsVisibleFrom(Camera.main))
                 {
-                    allVisibleTargets.Add(item);
+                    //line of sight check; likely needs optimization
+                    if (Physics.Linecast(transform.position, item.transform.position, out lcHit) == false)
+                    {
+                        allVisibleTargets.Add(item);
+                    }
                     if (item.GetComponent<CharacterHealth>() != null)
                     {
                         item.GetComponent<CharacterHealth>().m_ShowHealth = true;

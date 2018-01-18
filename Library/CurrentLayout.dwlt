@@ -72,7 +72,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 71
+  controlID: 12
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_MinSize: {x: 583, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 69
+  controlID: 35
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_MinSize: {x: 306, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 70
+  controlID: 11
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -388,9 +388,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 260.8769, y: 2.2931733, z: 261.52502}
+    m_Target: {x: 271.62256, y: 4.044161, z: 263.66873}
     speed: 2
-    m_Value: {x: 260.8769, y: 2.2931733, z: 261.52502}
+    m_Value: {x: 271.62256, y: 4.044161, z: 263.66873}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -414,13 +414,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.008266643, y: 0.99162406, z: -0.08349453, w: 0.09819403}
+    m_Target: {x: -0.07853611, y: 0.6042001, z: -0.060012147, w: -0.7906787}
     speed: 2
-    m_Value: {x: 0.008266643, y: 0.99162406, z: -0.08349453, w: 0.09819403}
+    m_Value: {x: -0.07853611, y: 0.6042001, z: -0.060012147, w: -0.7906787}
   m_Size:
-    m_Target: 4.881251
+    m_Target: 6.8556895
     speed: 2
-    m_Value: 4.881251
+    m_Value: 6.8556895
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -548,19 +548,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/ProjectArtemisScripts
+    - Assets/ProjectArtemisScripts/RPG Character Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/ProjectArtemisScripts
+  - Assets/ProjectArtemisScripts/RPG Character Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\kcohen\Documents\GitHub\ProjectArtemis
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 52}
-    m_SelectedIDs: a4570100
-    m_LastClickedID: 87972
-    m_ExpandedIDs: 00000000ea2700007e290000542a0000a457010000ca9a3bffffff7f
+    m_SelectedIDs: 9c2c0000
+    m_LastClickedID: 11420
+    m_ExpandedIDs: 00000000ee2700001e2800008c290000622a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -588,7 +588,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ea2700007e290000542a0000
+    m_ExpandedIDs: 00000000ee2700001e2800008c290000622a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -670,7 +670,7 @@ MonoBehaviour:
     width: 387
     height: 926
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 0}
+  m_ScrollPosition: {x: 0, y: 241.95508}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 379
@@ -706,9 +706,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c2c3000056070000
-    m_LastClickedID: 0
-    m_ExpandedIDs: ee84fbffb285fbfffa85fbffe4d5fbffa8d6fbfff0d6fbff00f9ffff48faffff9cfbffff9efbffff00000000002e0000642e0000a82e0000e02e0000522f0000
+    m_SelectedIDs: ba2d0000
+    m_LastClickedID: 11706
+    m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
