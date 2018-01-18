@@ -301,7 +301,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Anim_Controller.cs" />
-    <Compile Include="Assets\Target.cs" />
+    <Compile Include="Assets\ProjectArtemisScripts\RendererExtensions.cs" />
+    <Compile Include="Assets\ProjectArtemisScripts\RPG Character Scripts\BasicAttack.cs" />
+    <Compile Include="Assets\ProjectArtemisScripts\RPG Character Scripts\BoxManBaseStats.cs" />
+    <Compile Include="Assets\ProjectArtemisScripts\RPG Character Scripts\CharacterHealth.cs" />
+    <Compile Include="Assets\ProjectArtemisScripts\RPG Character Scripts\CharacterStats.cs" />
+    <Compile Include="Assets\ProjectArtemisScripts\RPG Character Scripts\MaxBaseStats.cs" />
+    <Compile Include="Assets\ProjectArtemisScripts\RPG Character Scripts\SelectedTargetHighlight.cs" />
+    <Compile Include="Assets\ProjectArtemisScripts\RPG Character Scripts\StatModifier.cs" />
+    <Compile Include="Assets\ProjectArtemisScripts\RPG Character Scripts\Target.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
