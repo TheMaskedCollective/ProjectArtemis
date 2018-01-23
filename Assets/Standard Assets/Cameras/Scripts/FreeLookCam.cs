@@ -21,8 +21,8 @@ namespace UnityStandardAssets.Cameras
         [SerializeField] private bool m_LockCursor = false;                   // Whether the cursor should be hidden and locked.
         [SerializeField] private bool m_VerticalAutoReturn = false;           // set wether or not the vertical axis should auto return
 
-        private float m_LookAngle;                    // The rig's y axis rotation.
-        private float m_TiltAngle;                    // The pivot's x axis rotation.
+		private float m_LookAngle;                    // The rig's y axis rotation.
+		private float m_TiltAngle;                  // The pivot's x axis rotation.
         private const float k_LookDistance = 100f;    // How far in front of the pivot the character's look target is.
 		private Vector3 m_PivotEulers;
 		private Quaternion m_PivotTargetRot;
@@ -43,12 +43,19 @@ namespace UnityStandardAssets.Cameras
 
         protected void Update()
         {
+			float speed = 10.0f;
             HandleRotationMovement();
             if (m_LockCursor && Input.GetMouseButtonUp(0))
             {
                 Cursor.lockState = m_LockCursor ? CursorLockMode.Locked : CursorLockMode.None;
                 Cursor.visible = !m_LockCursor;
             }
+			if (m_LockCursor && Input.GetKeyDown("joystick button 12"))
+			{
+				Cursor.lockState = m_LockCursor ? CursorLockMode.Locked : CursorLockMode.None;
+				Cursor.visible = !m_LockCursor;
+			}
+
         }
 
 
