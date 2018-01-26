@@ -301,6 +301,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Anim_Controller.cs" />
+    <Compile Include="Assets\AxeHiltFollowRightHand.cs" />
     <Compile Include="Assets\ProjectArtemisScripts\RendererExtensions.cs" />
     <Compile Include="Assets\ProjectArtemisScripts\RPG Character Scripts\BasicAttack.cs" />
     <Compile Include="Assets\ProjectArtemisScripts\RPG Character Scripts\BoxManBaseStats.cs" />

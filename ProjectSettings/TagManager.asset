@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Targetable
   - HealthBar
+  - LeftHand
+  - RightHand
   layers:
   - Default
   - TransparentFX
