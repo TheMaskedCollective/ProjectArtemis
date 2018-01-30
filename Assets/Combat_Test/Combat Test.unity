@@ -2977,6 +2977,21 @@ Prefab:
       propertyPath: m_TagString
       value: RightHand
       objectReference: {fileID: 0}
+    - target: {fileID: 95540979025510444, guid: 929cb1a6852aa464db629c99780678db,
+        type: 2}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137773697778497828, guid: 929cb1a6852aa464db629c99780678db,
+        type: 2}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137773697778497828, guid: 929cb1a6852aa464db629c99780678db,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 929cb1a6852aa464db629c99780678db, type: 2}
   m_IsPrefabParent: 0

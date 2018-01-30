@@ -11,12 +11,12 @@ public class AxeHiltFollowRightHand : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        rightHand = GameObject.FindGameObjectWithTag("RightHand").transform;
-        axe = transform.parent.transform;
+        //rightHand = GameObject.FindGameObjectWithTag("RightHand").transform;
+        //axe = transform.parent.transform;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        axe.transform.position = rightHand.transform.position - transform.localPosition;
+        //axe.transform.position = rightHand.transform.position - transform.localPosition;
 	}
 }
