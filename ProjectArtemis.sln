@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectArtemis", "Assembly-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectArtemis", "Assembly-CSharp-Editor-firstpass.csproj", "{1AB7C27C-4F65-897A-682B-FE52F694B562}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectArtemis", "Assembly-CSharp-Editor.csproj", "{8B4852F2-3B41-E86F-918F-234860E695F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{1AB7C27C-4F65-897A-682B-FE52F694B562}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AB7C27C-4F65-897A-682B-FE52F694B562}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AB7C27C-4F65-897A-682B-FE52F694B562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B4852F2-3B41-E86F-918F-234860E695F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4852F2-3B41-E86F-918F-234860E695F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4852F2-3B41-E86F-918F-234860E695F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4852F2-3B41-E86F-918F-234860E695F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
