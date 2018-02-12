@@ -4,22 +4,19 @@ using UnityEngine;
 
 public class SelectedTargetHighlight : MonoBehaviour {
 
-    public GameObject highlight;
-
 	// Use this for initialization
 	void Start () {
-		
 	}
 	
 	// Update is called once per frame
 	void Update () {
         if (transform.parent.GetComponentInParent<CharacterHealth>().m_IsCurrentTarget)
         {
-            highlight.SetActive(true);
+            gameObject.SetActive(true);
         }
         else
         {
-            highlight.SetActive(false);
+            gameObject.SetActive(false);
         }
 	}
 }
