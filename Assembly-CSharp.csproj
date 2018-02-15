@@ -51,43 +51,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AIWaypointNetwork.cs" />
      <Compile Include="Assets\Huge Mocap Library\demo\scripts\demo.cs" />
      <Compile Include="Assets\Huge Mocap Library\demo\scripts\smoothFollow.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\Example\Scripts\BasicInkExample.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\CallStack.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\Choice.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\ChoicePoint.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\Container.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\ControlCommand.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\DebugMetadata.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\Divert.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\Glue.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\INamedContent.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\InkList.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\JsonSerialisation.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\ListDefinition.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\ListDefinitionsOrigin.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\NativeFunctionCall.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\Object.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\Path.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\Profiler.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\PushPop.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\SimpleJson.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\Story.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\StoryException.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\StoryState.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\StringJoinExtension.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\Tag.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\Value.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\VariableAssignment.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\VariableReference.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\VariablesState.cs" />
-     <Compile Include="Assets\ink-unity-integration-master\Assets\Plugins\Ink\InkRuntime\Void.cs" />
      <Compile Include="Assets\Scripts\Anim_Controller.cs" />
      <Compile Include="Assets\Scripts\Attack_Script.cs" />
+     <Compile Include="Assets\YarnSpinner\Code\DialogueRunner.cs" />
+     <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\CameraFollow.cs" />
+     <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\ExampleDialogueUI.cs" />
+     <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\ExampleVariableStorage.cs" />
+     <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\MobileOnly.cs" />
+     <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\NPC.cs" />
+     <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\PlayerCharacter.cs" />
+     <Compile Include="Assets\YarnSpinner\Examples\DemoScripts\SpriteSwitcher.cs" />
      <None Include="Assets\Huge Mocap Library\READTHIS.txt" />
+     <None Include="Assets\YarnSpinner\Examples\DemoAssets\Space\Ship.yarn.txt" />
+     <None Include="Assets\YarnSpinner\Examples\DemoAssets\SimpleExampleScript.yarn.txt" />
+     <None Include="Assets\Shaders\noiseSimplex.cginc" />
      <None Include="Assets\Huge Mocap Library\mocap animations\cmu-mocap-index-text.txt" />
-     <None Include="Assets\ink-unity-integration-master\ProjectSettings\ProjectVersion.txt" />
+     <None Include="Assets\YarnSpinner\Examples\DemoAssets\Space\Sally.yarn.txt" />
+     <None Include="Assets\YarnSpinner\Examples\DemoAssets\Space\Boxman.yarn.txt" />
+     <None Include="Assets\YarnSpinner\README.txt" />
+     <None Include="Assets\Shaders\ZeldaWaterV2.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -150,6 +135,18 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Antlr4.Runtime.Standard">
+ <HintPath>D:/GitHub/ProjectArtemis/Assets/YarnSpinner/Code/Antlr4.Runtime.Standard.dll</HintPath>
+ </Reference>
+ <Reference Include="CsvHelper">
+ <HintPath>D:/GitHub/ProjectArtemis/Assets/YarnSpinner/Code/CsvHelper.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>D:/GitHub/ProjectArtemis/Assets/YarnSpinner/Code/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="YarnSpinner">
+ <HintPath>D:/GitHub/ProjectArtemis/Assets/YarnSpinner/Code/YarnSpinner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Jack/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

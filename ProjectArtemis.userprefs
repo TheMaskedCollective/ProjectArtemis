@@ -1,10 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Characters\RPG Character Scripts\BasicAttack.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Shaders\ZeldaWaterV2.shader">
     <Files>
       <File FileName="Assets\Standard Assets\Characters\RPG Character Scripts\BasicAttack.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Anim_Controller.cs" Line="5" Column="1" />
-      <File FileName="Assets\Scripts\Attack_Script.cs" Line="11" Column="1" />
+      <File FileName="Assets\Scripts\Anim_Controller.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Attack_Script.cs" Line="1" Column="1" />
+      <File FileName="Assets\YarnSpinner\Examples\DemoScripts\ExampleDialogueUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\YarnSpinner\Examples\DemoAssets\Space\Boxman.yarn.txt" Line="1" Column="1" />
+      <File FileName="Assets\YarnSpinner\Examples\DemoScripts\PlayerCharacter.cs" Line="1" Column="1" />
+      <File FileName="Assets\YarnSpinner\Examples\DemoScripts\NPC.cs" Line="1" Column="1" />
+      <File FileName="Assets\Shaders\ZeldaWaterV2.shader" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
