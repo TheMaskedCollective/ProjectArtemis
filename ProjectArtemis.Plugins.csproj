@@ -265,6 +265,18 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Antlr4.Runtime.Standard">
+      <HintPath>Assets/YarnSpinner/Code/Antlr4.Runtime.Standard.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvHelper">
+      <HintPath>Assets/YarnSpinner/Code/CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets/YarnSpinner/Code/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="YarnSpinner">
+      <HintPath>Assets/YarnSpinner/Code/YarnSpinner.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/kcohen/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -348,6 +360,10 @@
     <Compile Include="Assets\Standard Assets\Utility\WaypointProgressTracker.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Huge Mocap Library\READTHIS.txt" />
+    <None Include="Assets\Huge Mocap Library\mocap animations\cmu-mocap-index-text.txt" />
+    <None Include="Assets\Shaders\ZeldaWaterV2.shader" />
+    <None Include="Assets\Shaders\noiseSimplex.cginc" />
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
@@ -364,6 +380,12 @@
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
     <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+    <None Include="Assets\YarnSpinner\Examples\DemoAssets\SimpleExampleScript.yarn.txt" />
+    <None Include="Assets\YarnSpinner\Examples\DemoAssets\Space\Boxman.yarn.txt" />
+    <None Include="Assets\YarnSpinner\Examples\DemoAssets\Space\Sally.yarn.txt" />
+    <None Include="Assets\YarnSpinner\Examples\DemoAssets\Space\Ship.yarn.txt" />
+    <None Include="Assets\YarnSpinner\README.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
